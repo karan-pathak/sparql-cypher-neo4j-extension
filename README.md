@@ -19,6 +19,10 @@ Note: Neo4j version 4.1.0 and desktop version 1.3.4 were used at the time of wri
 * The extension is now configured and the result should now be available at the following URL:
 	* http://localhost:7474/serverx/translate/sparql
 
+### Result
+* The results contain two values(numbers) in a comma separated array. The first value represents the number of records returned and the second value represents the time taken by the extension in milliseconds to perform the operation which includes the time for converting the sparql query to cypher and also executing it.
+
 ### Note
 * The sparql query in the extension is currently hardcoded but can be extended by using a web form.
+* RDF data can be imported in Neo4j using the Neo4j extension called Neosemantics. Please refer https://neo4j.com/labs/neosemantics/ for more details.
   
